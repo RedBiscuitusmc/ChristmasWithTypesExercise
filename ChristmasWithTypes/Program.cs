@@ -2,13 +2,19 @@
 
 namespace ChristmasWithTypes
 {
-    class Program
+    public class Program
     {
+
+       
+       
         static void Main(string[] args)
         {
             var xmas = new Christmas();
 
             var xmasDay = Christmas.Day.Thursday;
+
+
+            
 
             //TODO set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
@@ -16,9 +22,9 @@ namespace ChristmasWithTypes
             //TODO Insert 3 presents you would like for xmas.  They must be strings
             xmas.Presents = new string[3] { "New Desktop", "New cloths for my son", "New desk for my wife" };
 
-            
+
             //TODO Set the TreeHeight to 10
-            xmas.TreeHeight = "10";
+            xmas.TreeHeight = 10;
 
 
 
@@ -33,6 +39,7 @@ namespace ChristmasWithTypes
 
             Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
         }
+
 
     }
 }
